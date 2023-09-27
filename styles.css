@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 0 5rem;
+}
+
+#text {
+  max-width: 800px;
+  text-align: left;
+  width: 100%;
+  color: black;
+  font-family: monospace;
+  font-size: 1.8rem;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 8rem;
+}
+
+#text.typing span:last-child {
+  background-color: black;
+}
